@@ -8,23 +8,23 @@
     "packages": [
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v0.40.0",
+            "version": "v0.60.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "56dc37c6a69c098bac918684d8e6376f91318612"
+                "reference": "f8e1490ae4213ef02ebcf5f74cb3ef836d85dc0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/56dc37c6a69c098bac918684d8e6376f91318612",
-                "reference": "56dc37c6a69c098bac918684d8e6376f91318612",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/f8e1490ae4213ef02ebcf5f74cb3ef836d85dc0b",
+                "reference": "f8e1490ae4213ef02ebcf5f74cb3ef836d85dc0b",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.4"
+                "phpunit/phpunit": "^6"
             },
             "type": "library",
             "autoload": {
@@ -45,11 +45,14 @@
             "description": "Render quill insert deltas to HTML",
             "homepage": "https://github.com/deanblackborough/php-quill-renderer",
             "keywords": [
+                "delta",
                 "html",
+                "parse",
                 "quill",
+                "quilljs",
                 "renderer"
             ],
-            "time": "2017-03-10T17:08:52+00:00"
+            "time": "2017-04-12T21:28:06+00:00"
         }
     ],
     "packages-dev": [],
