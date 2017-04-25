@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "332eb4a619bc153c736ffa4368df8c12",
+    "content-hash": "d2667545fcf3524c7d511259930649c2",
     "packages": [
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v0.80.0",
+            "version": "v0.80.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "af7f1f4cb9684fcf3d30b71200819001b9157667"
+                "reference": "10ffb9d2bfa3866a4855e9cefd15a692c967eed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/af7f1f4cb9684fcf3d30b71200819001b9157667",
-                "reference": "af7f1f4cb9684fcf3d30b71200819001b9157667",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/10ffb9d2bfa3866a4855e9cefd15a692c967eed4",
+                "reference": "10ffb9d2bfa3866a4855e9cefd15a692c967eed4",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "DBlackborough\\Quill\\": "src/DBlackborough/Quill"
+                    "DBlackborough\\Quill\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -52,7 +52,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2017-04-24T20:19:26+00:00"
+            "time": "2017-04-25T18:34:17+00:00"
         }
     ],
     "packages-dev": [],
