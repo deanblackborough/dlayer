@@ -9,4 +9,5 @@ insert  into `designer_content_type`(`name`,`description`) values
     ('HeadingDate','Heading & Date'),
     ('RichText', 'Rich text'),
     ('BlogPost', 'Blog post'),
-    ('HorizontalRule', 'Horizontal rule');
+    ('HorizontalRule', 'Horizontal rule'),
+    ('Button', 'Button');
