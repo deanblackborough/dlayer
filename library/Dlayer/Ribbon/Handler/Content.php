@@ -96,6 +96,10 @@ class Dlayer_Ribbon_Handler_Content
                 $data = $this->addRow($tool, $tab);
                 break;
 
+            case 'Button':
+                $data = $this->button($tool, $tab);
+                break;
+
             case 'Column':
                 $data = $this->column($tool, $tab);
                 break;
@@ -218,6 +222,30 @@ class Dlayer_Ribbon_Handler_Content
                 $data = array(
                     'tool' => $this->toolParams($tool),
                 );
+                break;
+
+            default:
+                $data = false;
+                break;
+        }
+
+        return $data;
+    }
+
+    /**
+     * Fetch the view tab data for the button tool, returns an array containing the form and the data for the tool
+     *
+     * @param string $tool The tool name
+     * @param string $tab The tool tab name
+     *
+     * @return array|false
+     */
+    private function button($tool, $tab)
+    {
+        switch ($tab) {
+            case 'button':
+                $ribbon_button = new Dlayer_DesignerTool_ContentManager_Button_Ribbon();
+                $data = $ribbon_button->viewData($this->toolParams($tool));
                 break;
 
             default:
