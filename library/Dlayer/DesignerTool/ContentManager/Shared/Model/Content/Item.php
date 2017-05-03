@@ -232,6 +232,10 @@ class Dlayer_DesignerTool_ContentManager_Shared_Model_Content_Item extends Zend_
                 $table = 'user_site_page_content_item_blog_post';
                 break;
 
+            case 'Button':
+                $table = 'user_site_page_content_item_button';
+                break;
+
             case 'HeadingDate':
                 $table = 'user_site_page_content_item_heading_date';
                 break;
@@ -277,6 +281,10 @@ class Dlayer_DesignerTool_ContentManager_Shared_Model_Content_Item extends Zend_
         switch ($content_type) {
             case 'BlogPost':
                 $table = 'user_site_content_blog_post';
+                break;
+
+            case 'Button':
+                $table = 'user_site_content_button';
                 break;
 
             case 'HeadingDate':

@@ -24,7 +24,7 @@ class Dlayer_DesignerTool_ContentManager_Button_Model extends
     {
         $result = false;
 
-        $data_id = $this->existingDataIdOrFalse($site_id, $params['content'], 'Button');
+        $data_id = $this->existingDataIdOrFalse($site_id, $params['label'], 'Button');
 
         if ($data_id === false) {
             $data_id = $this->addData($site_id, $params['name'], $params['label']);
